@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from dnn_structures import *
 import networkx as nx
 import collections
-from dnn_modules_for_sini import *
+from dnn_modules import *
 
 
 def artificial_main(artificial_parameters, general_parameters, autoencoder_parameters):
