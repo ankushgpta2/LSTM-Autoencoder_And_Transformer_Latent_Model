@@ -1,4 +1,4 @@
-from dnn_modules import *
+from modules.run_dnn_modules import *
 import os
 import scipy.io
 import h5py

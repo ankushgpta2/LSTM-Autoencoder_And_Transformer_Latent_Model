@@ -1,7 +1,7 @@
-from artificial_data import *
-from handle_dnn_inputs import *
+from data.artificial_data import *
+from handle_inputs import *
 from tiago_data import *
-from dnn_modules import *
+from modules.run_dnn_modules import *
 
 # get hyperparameters
 general_parameters, mlp_parameters, autoencoder_parameters, artificial_parameters = get_hyperparams()
